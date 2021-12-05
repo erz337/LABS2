@@ -1,5 +1,5 @@
-#include <example.hpp>
+#include <investigation.hpp>
 
 int main() {
-  example();
+  exprmt();
 }

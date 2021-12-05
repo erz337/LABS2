@@ -98,9 +98,9 @@ for (int i = 0; i < 80; i += 16) // чтение
 необходимо провести серию из 5 эксперементов.
 
 ```cpp
-cache_size['1'] = 2 mb;
-cache_size['2'] = 4 mb;
-cache_size['3'] = 8 mb;
+cachesize['1'] = 2 mb;
+cachesize['2'] = 4 mb;
+cachesize['3'] = 8 mb;
 
 // 1mb < 2mb < 4mb < 8mb < 12mb
 ```
@@ -136,7 +136,7 @@ cache_size['3'] = 8 mb;
 
 ```yaml
 investigation:                                       |  investigaion:
-  travel_variant: <вариант_прохода>                  |    travel_order: "direction"
+  travel_variant: <вариант_прохода>                  |    travel_order: "direct"
   experiments:                                       |    experiments:
   - experiment:                                      |    - experiment:
       number:                                        |        number: 1

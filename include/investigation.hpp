@@ -20,7 +20,7 @@ class Cache {
   std::vector <size_t> _buffer_size;      // объём буфера
   std::vector <double> _time;         // время
  public:
-  Cache(std::string type = "");
+  explicit Cache(std::string type = "");
   ~Cache();
   void direct();
   void reverse();

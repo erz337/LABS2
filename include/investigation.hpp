@@ -1,4 +1,4 @@
-// Copyright 2021 Your Name <novikovwarlock@yandex.ru>
+// Copyright 2021 Your Name <erzunov2002@gmail.com>
 
 #ifndef INCLUDE_INVESTIGATION_HPP_
 #define INCLUDE_INVESTIGATION_HPP_
